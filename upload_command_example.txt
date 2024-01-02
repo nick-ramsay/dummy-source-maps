@@ -1,0 +1,5 @@
+export DATADOG_API_KEY=<DATADOG_API_KEY_VALUE>
+datadog-ci sourcemaps upload static/js \
+  --service=dummy-source-maps \
+  --release-version=v1.0.0 \
+  --minified-path-prefix=https://example.org/static/js
